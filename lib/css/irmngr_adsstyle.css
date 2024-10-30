@@ -1,0 +1,535 @@
+ .irmngr_golden{
+    background:#DCAE1D  !important; 
+ }
+ .irmngr_green{
+    background:#137c3e  !important;
+ }
+ .irmngr_red{
+    background:#d9534f  !important;
+ }
+ .irmngr_purple{
+    background:#9954bb  !important;
+ }
+ .irmngr_gray{
+    background:#4e4a4a  !important;
+ }               
+.irmngr_button_round {
+  position: relative  !important;
+  display: inline-block  !important;
+  cursor: pointer  !important;
+  outline: none  !important;
+  border: 0  !important; 
+  vertical-align: middle  !important;
+  text-decoration: none  !important;
+  background: transparent  !important;
+  padding: 0  !important;
+  font-size: inherit  !important;
+  font-family: inherit  !important;
+}
+.irmngr_button_round.learn-more {
+width: 18rem  !important;
+    height: auto  !important;
+}
+.irmngr_button_round.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1)  !important;
+    position: relative  !important;
+    margin: 0  !important;
+    width: 6rem  !important;
+    height: 6rem  !important;
+   
+    border-radius: 2.925rem  !important;
+}
+.irmngr_button_round.learn-more .circle .icon {
+   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1)  !important;
+  position: absolute  !important;
+  top: 0  !important;
+  bottom: 0  !important;
+  margin: auto  !important;
+  background: #fff  !important;
+}
+.irmngr_button_round.learn-more .circle .icon.arrow {
+transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1)  !important;
+    left: 0.625rem  !important;
+    width: 1.125rem  !important;
+    height: 0.125rem  !important;
+    background: none  !important;
+}
+.irmngr_button_round.learn-more .circle .icon.arrow::before {
+    position: absolute  !important;
+    content: "" !important;
+    top: -0.7rem  !important;
+    right: -1.5375rem  !important;
+    width: 1.625rem  !important;
+    height: 1.625rem  !important;
+    border-top: 0.325rem solid #fff  !important;
+    border-right: 0.325rem solid #fff  !important;
+    -webkit-transform: rotate(45deg)  !important;
+    transform: rotate(45deg)  !important;
+}
+.irmngr_button_round.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1) !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    padding: 1.75rem 0 !important;
+    margin: 0 0 0 3.85rem !important;
+    color: #4E4A4E !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+    font-size: 100% !important;
+    text-transform: uppercase !important;font-family: Roboto,arial,sans-serif  !important;
+}
+.irmngr_button_round:hover .circle {
+  background:#827f7f !important;
+}
+.irmngr_button_3rem {
+  position: relative !important;
+  display: inline-block !important;
+  cursor: pointer !important;
+  outline: none !important;
+  border: 0 !important;
+  vertical-align: middle !important;
+  text-decoration: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+}
+.irmngr_button_3rem.learn-more {
+    width: 20rem !important;
+    height: auto !important;
+}
+.irmngr_button_3rem.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1) !important;
+    position: relative !important;
+    margin: 0 !important;
+    width: 5rem !important;
+    height: 5rem !important;
+    border-radius: 4.925rem !important;
+   
+}
+.irmngr_button_3rem.learn-more .circle .icon {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1) !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  margin: auto !important;
+  background: #fff !important;
+}
+.irmngr_button_3rem.learn-more .circle .icon.arrow {
+     transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1) !important;
+    left: 0.7rem !important;
+    width: 2.6rem !important;
+    height: 0.225rem !important;
+    background: none !important;
+}
+.irmngr_button_3rem.learn-more .circle .icon.arrow::before {
+    position: absolute !important;
+    content: "" !important;
+    top: -0.88rem !important;
+    right: 0.2rem !important;
+    width: 1.925rem !important;
+    height: 1.925rem !important;
+    border-top: 0.225rem solid #fff !important;
+    border-right: 0.225rem solid #fff !important;
+    -webkit-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important;
+}
+.irmngr_button_3rem.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1) !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    padding:1.10rem 0 !important;
+    margin: 0px 0 0 3.15rem !important;
+    color: #282936 !important;
+    font-weight: 700 !important;
+    line-height: 1.6 !important;
+    font-size: 18px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;font-family: Roboto,arial,sans-serif  !important;
+}
+.irmngr_button_3rem:hover .circle {
+  width: 100% !important;
+}
+.irmngr_button_3rem:hover .circle .icon.arrow {
+   background: #fff !important;
+  -webkit-transform: translate(2rem, 0) !important;
+          transform: translate(2rem, 0) !important;
+}
+
+.irmngr_button_3rem:hover .button-text {
+  color: #fff !important;
+}
+
+
+.irmngr_button_7rem {
+  position: relative !important;
+  display: inline-block !important;
+  cursor: pointer !important;
+  outline: none !important;
+  border: 0 !important;
+  vertical-align: middle !important;
+  text-decoration: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  font-size: inherit !important;
+  font-family: inherit !important;
+}
+.irmngr_button_7rem.learn-more {
+width: 22rem !important;
+    height: auto !important;
+}
+.irmngr_button_7rem.learn-more .circle {
+transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1) !important;
+    position: relative !important;
+    margin: 0 !important;
+    width: 7rem !important;
+    height: 7rem !important;
+    border-radius: 4.925rem !important;
+   
+}
+.irmngr_button_7rem.learn-more .circle .icon {
+ transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1) !important;
+  position: absolute !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  margin: auto !important;
+  background: #fff !important;
+}
+.irmngr_button_7rem.learn-more .circle .icon.arrow {
+      transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1) !important;
+    left: 1.7rem !important;
+    width: 2.6rem !important;
+    height: 0.225rem !important;
+    background: none !important;
+}
+.irmngr_button_7rem.learn-more .circle .icon.arrow::before {
+position: absolute !important;
+    content: "" !important;
+    top: -0.88rem !important;
+    right: 0.2rem !important;
+    width: 1.925rem !important;
+    height: 1.925rem !important;
+    border-top: 0.225rem solid #fff !important;
+    border-right: 0.225rem solid #fff !important;
+    -webkit-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important;
+}
+.irmngr_button_7rem.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1) !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    padding: 2rem 0 !important;
+    margin: 0 0 0 5.15rem !important;
+    color: #282936 !important;
+    font-weight: 700 !important;
+    line-height: 1.6 !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    text-transform: uppercase !important;font-family: Roboto,arial,sans-serif  !important;
+}
+.irmngr_button_7rem:hover .circle {
+  width: 100% !important;
+}
+.irmngr_button_7rem:hover .circle .icon.arrow {
+   background: #fff !important;
+  -webkit-transform: translate(2rem, 0) !important;
+          transform: translate(2rem, 0) !important;
+}
+
+.irmngr_button_7rem:hover .button-text {
+  color: #fff !important;
+}
+  .animate_right_to_left{
+    animation-delay: 2.5s !important;
+    animation: right_to_left 1.4s ease-in-out !important;
+ } 
+
+  .animate_left_to_right{
+    animation-delay: 2.5s !important;
+    animation: left_to_right 1.4s ease-in-out !important;
+ } 
+.animate_fade_in{
+    animation: fade_in 1.5s ease-in-out !important;
+ }               
+@-webkit-keyframes left_to_right{
+  from {
+    left: -50% !important;
+  }
+
+  to {
+    /* left: auto !important; */
+    left: 0% !important;
+  }
+}
+@-webkit-keyframes right_to_left{
+  from {
+    right: -30% !important;
+  }
+
+  to {
+    /* left: auto !important; */
+    right: 0% !important;
+  }
+}
+
+@-webkit-keyframes fade_in{
+  from {
+    opacity: 0 !important;
+  }
+
+  to {
+     opacity: 1 !important;
+  }
+}
+
+.irmngr_title_{
+  -webkit-line-clamp: 4 !important;
+                                display: -webkit-box !important;
+                                -webkit-box-orient: vertical !important;
+}
+.irmngr_article_main_div{
+                        padding-left:2% !important;padding-right:2% !important;width:100% !important;height: 100% !important;background: rgba(255,255,255,1) !important;position:relative !important;
+                    }
+                            .irmngr_ads_title_color{
+                                color: #4e4a4a !important;
+                            }
+                            .irmngr_ads_heading_color{
+                                color: #7d7b7b !important;
+                            }
+                            .irmngr_ads_title{
+                                font-family: Roboto,arial,sans-serif  !important;
+                                position: relative !important;
+                                overflow: hidden !important;
+                                text-overflow: ellipsis !important;
+                                height: auto !important;
+                                font-weight: 450 !important;
+                                word-break: break-word !important;
+                            }
+                            .irmngr_text_align_left{
+                               text-align: left !important; 
+                            }
+                            .irmngr_max_height_50{
+                                max-height: 50% !important;
+                            }
+                            .irmngr_max_height_35{
+                                max-height: 35% !important;
+                            }
+                            .irmngr_width_100{
+                                width: 100% !important;
+                            }
+                            .irmngr_width_80{
+                                width: 80% !important;
+                            }
+                            .irmngr_width_75{
+                                width: 75% !important;
+                            }
+                            .irmngr_margin_left_auto{
+                                margin-left: auto !important;
+                            }
+                            .irmngr_margin_right_auto{
+                                margin-right: auto !important;
+                            }
+                            .irmngr_padding_5{
+                                padding: 5% !important;
+                            }
+                            .irmngr_padding_2{
+                                padding: 2% !important;
+                            }
+                            .irmngr_padding_left_15{
+                                padding-left: 15px !important;
+                            }
+                            .irmngr_padding_top_5{
+                                padding-top: 5px !important;
+                            }
+                            .irmngr_white_space_no_wrap{
+                                white-space: nowrap !important;
+                            }
+                            .irmngr_font_size_150{
+                                font-size: 150% !important;
+                            }
+                            .irmngr_font_size_225{
+                                font-size: 225% !important;
+                            }
+                            .irmngr_font_size_275{
+                                font-size: 275% !important;
+                            }
+                            .irmngr_font_size_300{
+                                font-size: 300% !important;
+                            }
+                            .irmngr_line_height_114{
+                                line-height: 114% !important;
+                            }
+                            .irmngr_ads_subheading{
+                                font-family: Roboto,arial,sans-serif  !important;
+                                position: relative !important;
+                                height: auto !important;
+                                max-height: 50% !important;
+                                padding-top: 0.9% !important;
+                                padding-left: 1% !important;
+                                font-size: 125% !important;                                
+                                width: 25% !important;
+                                white-space: nowrap !important;
+                                text-overflow: ellipsis !important;
+                                float: left !important;
+                                font-weight: 450 !important;
+                                overflow: hidden !important;
+                            }
+                            .irmngr_ads_subheading2{
+                                font-family: Roboto,arial,sans-serif  !important;
+                                position: relative !important;
+                                height: auto !important;
+                                max-height: 30% !important;
+                                /* display: flex !important; */
+                                width: 65% !important;
+                                white-space: nowrap !important;
+                                text-overflow: ellipsis !important;
+                                float: left !important;
+                                overflow: hidden !important;
+                                padding-left: 2% !important;
+                                padding-top: 0.8% !important;
+                                font-size: 150% !important;
+                                font-weight: 450 !important;                                
+                                text-align: left !important;
+                            }
+                            .irmngr_ads_subheading3{
+                                height: auto !important;
+                                max-height: 30% !important;
+                                overflow: hidden !important;
+                                white-space: nowrap !important;
+                                padding-top: 14% !important;
+                                padding-left: 2.5% !important;
+                                text-overflow: ellipsis !important;
+                                font-size: 150% !important;
+                                font-weight: 450 !important;
+                                font-family: Roboto,arial,sans-serif  !important;
+                            }
+                            .irmngr_ads_subheading4{
+                                font-family: Roboto,arial,sans-serif  !important;
+                                position: relative !important;
+                                height: auto !important;
+                                max-height: 30% !important;
+                                width: 65% !important;
+                                text-align: left !important;
+                                padding-top: 9% !important;
+                                padding-bottom: 9% !important;
+                                white-space: nowrap !important;
+                                text-overflow: ellipsis !important;
+                                float: left !important;
+                                overflow: hidden !important;
+                                font-size: 130% !important;
+                                font-weight: 450 !important;
+                            }
+                            .irmngr_ads_paragraph{
+                                font-family: Roboto,arial,sans-serif  !important;
+                                -webkit-line-clamp: 2 !important;
+                                display: -webkit-box !important;
+                                -webkit-box-orient: vertical !important;
+                                width: 65% !important;
+                                position: relative !important;
+                                float: left !important;
+                                text-align: left !important;
+                                padding: 1.3% !important;
+                                padding-top: 5.5% !important;
+                                padding-bottom: 0% !important;
+                                text-overflow: ellipsis !important;
+                                line-height: 176% !important;
+                                font-size: 100% !important;
+                                padding-left: 1 !important;
+                                /* white-space: nowrap !important; */
+                                color: #828080 !important;
+                                overflow: hidden !important;
+                                height: 50% !important;
+                            }
+                            .irmngr_ads_paragraph2{
+                                font-family: Roboto,arial,sans-serif  !important;
+                                width: 50% !important;
+                                position: relative !important;
+                                float: left !important;
+                                font-size: 100% !important;
+                                text-align: left !important;
+                                padding-left: 4% !important;
+                                padding-top: 1% !important;
+                                white-space: nowrap !important;
+                                text-overflow: ellipsis !important;
+                                padding-left: 1 !important;
+                                color: #828080 !important;
+                                overflow: hidden !important;
+                                height: 50% !important;
+                            }
+                            .irmngr_ads_paragraph3{
+                                font-family: Roboto,arial,sans-serif  !important;
+                                width: 100% !important;
+                                position: relative !important;
+                                float: left !important;
+                                text-align: left !important;
+                                padding: 2% !important;
+                                color: #828080 !important;
+                                overflow: hidden !important;
+                                padding-top: 16% !important;
+                                height: auto !important;
+                                max-height: 35% !important;
+                                line-height: 145% !important;
+                                font-size: 115% !important;
+                                -webkit-line-clamp: 6 !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+                            }
+                            .irmngr_ads_paragraph4{
+                                font-family: Roboto,arial,sans-serif  !important;
+                                width: 60% !important;
+                                position: relative !important;
+                                float: left !important;
+                                padding-top: -120% !important;
+                                text-align: left !important;
+                                /*padding: 1.3% !important;*/
+                                padding-bottom: 0% !important;
+                                text-overflow: ellipsis !important;
+                                line-height: 156% !important;
+                                font-size: 100% !important;
+                                padding-left: 1 !important;
+                                color: #828080 !important;
+                                overflow: hidden !important;
+                                height: 38% !important;
+                                max-height: 100px !important;
+                                -webkit-line-clamp: 4 !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+                            }
+                            .irmngr_ads_paragraph5{
+                                font-family: Roboto,arial,sans-serif  !important;
+    width: 65% !important;
+    position: relative !important;
+    float: left !important;
+    text-align: left !important;
+    margin-top: 4.5% !important;
+    text-overflow: ellipsis !important;
+    font-size: 100% !important;
+    padding-left: 1 !important;
+    white-space: normal !important;
+    -webkit-line-clamp: 2 !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+    color: #828080 !important;
+    overflow: hidden !important;
+    height: 20% !important;max-height: 50px !important;
+                            }
+.irmngr_link{
+ text-decoration: none  !important;
+}             
+.irmngr_post_div{
+    border: solid 1px rgb(209, 209, 209) !important;
+    height: 100% !important;
+    position: relative !important;
+    width: 100% !important;
+    overflow: hidden !important;
+    background: #ffffff  !important;
+}               
